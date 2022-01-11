@@ -1,0 +1,220 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+\usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Huy Tran} \\ \vspace{1pt}
+    \small (408)-594-8987 $|$ \href{mailto:x@x.com}{\underline{huytran@berkeley.edu}} $|$ 
+    \href{https://github.com/huytt621}{\underline{github.com/huytt621}} $|$
+    \href{http://huytt621.github.io/}{\underline{huytt621.github.io}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of California, Berkeley}{\emph{GPA: 4.0}}
+      {Bachelor of Arts in Computer Science and Data Science}{Expected May 2023}
+  \resumeSubHeadingListEnd
+  \begin{itemize}[leftmargin=0.15in, label={}]
+     \small{\item{
+      \textbf{Relevant Coursework}{: Structure and Interpretation of Computer Programs, Data Structures and Algorithms, Discrete Mathematics and Probability Theory, Engineering Software as a Service, Introduction to Database Systems, Foundations of Data Science}
+     }}
+  \end{itemize}
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, JavaScript, SQL, MongoDB QL, HTML/CSS} \\
+     \textbf{Frameworks}{: React, Node.js, Express.js, Redux, Tailwind CSS} \\
+     \textbf{Developer Tools}{: Git, GitHub, Jira, Docker}
+    }}
+ \end{itemize}
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Tech Consultant}{November 2021 -- Present}
+      {UC Berkeley Student Tech Services}{Berkeley, CA}
+      \resumeItemListStart
+        \resumeItem{Collaborate with Helpdesk Supervisors to provide technical support for all UC Berkeley students}
+        \resumeItem{Troubleshoot and resolve various hardware and software issues (e.g. laptops, peripherals, viruses, etc.) around campus}
+        \resumeItem{Provide in-person and on-call customer service to respond to incidents on ServiceNow}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Academic Intern}{June 2021 -- August 2021}
+      {UC Berkeley EECS Department}{Berkeley, CA}
+      \resumeItemListStart
+        \resumeItem{Supported lab section of over 50 students for UC Berkeley’s Data Structures and Algorithms course}
+        \resumeItem{Completed over 30 student tickets throughout the session, providing conceptual and bug-fixing support for lab assignments}
+        \resumeItem{Regularly consulted with student instructors to provide recommendations for improving the remote learning experience for students}
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Personal Website}}{\href{https://github.com/huytt621/personal-website}{\underline{git.io/Jynzo}}}
+          \resumeItemListStart
+                \resumeItem{Built a modern progressive website with React and Tailwind CSS that highlights my portfolio}
+                \resumeItem{Improved User Experience on mobile devices by following Mobile-First Responsive Design principles}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Pok\'emon Recommender}}{\href{https://github.com/huytt621/pokemon-recommender}{\underline{git.io/JS9yt}}}
+          \resumeItemListStart
+            \resumeItem{Created a recommender system in Python that outputs similar Pok\'emon based on a user's input}
+            \resumeItem{Transformed and cleaned data from Pok\'eAPI using the pandas and NumPy libraries}
+            \resumeItem{Improved recommendations by applying various Machine Learning techniques (e.g. K-Nearest Neighbors, Cosine Similarity, SVD) with the sciKit-learn library}
+            \resumeItem{Organized and analyzed results in a Jupyter Notebook}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{CalPlanner}}{\href{https://github.com/huytt621/calplanner}{\underline{git.io/JWPcc}}}
+          \resumeItemListStart
+            \resumeItem{Developed a full-stack web application that allows students to create and edit four-year academic plans}
+            \resumeItem{Created a REST API with Express.js that stores user information and plans into a MongoDB Database}
+            \resumeItem{Designed a User Interface with React and Tailwind CSS that automatically saves user changes to the database}
+            \resumeItem{Integrated OAuth API to allow users to securely register and login with their Google accounts}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Gitlet}}{\href{https://gitfront.io/r/huytt621/6546c41e067e9f94621b90d764d7d16da3abb527/gitlet/}{\underline{bit.ly/3q9UHl1}}}
+          \resumeItemListStart
+            \resumeItem{Created a version control system with features from Git (e.g. commit, checkout, merge) using Java}
+            \resumeItem{Improved navigation through commit history by using a directed acyclic graph and graph traversal algorithms}
+            \resumeItem{Optimized the detection of file changes by integrating the SHA-1 cryptographic hash function}
+            \resumeItem{Verified correctness of the program by writing integration tests during development (Test Driven Development)}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}

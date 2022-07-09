@@ -24,9 +24,10 @@
 %----------FONT OPTIONS----------
 % sans-serif
 % \usepackage[sfdefault]{FiraSans}
-\usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{roboto}
 % \usepackage[sfdefault]{noto-sans}
 % \usepackage[default]{sourcesanspro}
+\usepackage[default]{opensans}
 
 % serif
 % \usepackage{CormorantGaramond}
@@ -44,7 +45,7 @@
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1in}
 \addtolength{\topmargin}{-.5in}
-\addtolength{\textheight}{1.0in}
+\addtolength{\textheight}{1in}
 
 \urlstyle{same}
 
@@ -113,49 +114,52 @@
 
 \begin{center}
     \textbf{\Huge \scshape Huy Tran} \\ \vspace{1pt}
-    \small (408)-594-8987 $|$ \href{mailto:x@x.com}{\underline{huytran@berkeley.edu}} $|$ 
-    \href{https://github.com/huytt621}{\underline{github.com/huytt621}} $|$
-    \href{http://huytt621.github.io/}{\underline{huytt621.github.io}}
+    \small 408-594-8987 $|$ \href{mailto:huytran@berkeley.edu}{\underline{huytran@berkeley.edu}} $|$ 
+    \href{https://linkedin.com/in/huytt621}{\underline{linkedin.com/in/huytt621}} $|$
+    \href{https://github.com/huytt621}{\underline{github.com/huytt621}}
 \end{center}
-
-
-%-----------EDUCATION-----------
-\section{Education}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {University of California, Berkeley}{\emph{GPA: 4.0}}
-      {Bachelor of Arts in Computer Science and Data Science}{Expected May 2023}
-  \resumeSubHeadingListEnd
-  \begin{itemize}[leftmargin=0.15in, label={}]
-     \small{\item{
-      \textbf{Relevant Coursework}{: Structure and Interpretation of Computer Programs, Data Structures and Algorithms, Discrete Mathematics and Probability Theory, Engineering Software as a Service, Introduction to Database Systems, Foundations of Data Science}
-     }}
-  \end{itemize}
 
 
 %
 %-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
+\section{\textbf{Technical Skills}}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Java, Python, JavaScript, SQL, MongoDB QL, HTML/CSS} \\
-     \textbf{Frameworks}{: React, Node.js, Express.js, Redux, Tailwind CSS} \\
-     \textbf{Developer Tools}{: Git, GitHub, Jira, Docker}
+     \textbf{Languages}{: Java, Python, JavaScript, TypeScript, HTML/CSS, SQL, GraphQL} \\
+     \textbf{Frameworks/Libraries}{: React, Node.js, Express.js, Next.js, Tailwind CSS, Spring Framework, Project Reactor} \\
+     \textbf{Developer Tools}{: Git, GitHub, Docker, Jira, Confluence}
     }}
  \end{itemize}
 
 
+%-----------EDUCATION-----------
+\section{\textbf{Education}}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of California, Berkeley}{\textbf{Berkeley, CA}}
+      {Bachelor of Arts in Computer Science, Minor in Data Science (GPA: 4.0)}{Expected May 2024}
+
+    \begin{itemize}[leftmargin=0in, label={}]
+        \small{\item{
+        \textbf{Relevant Courses}{: Data Structures, Efficient Algorithms, Database Systems, Software Engineering, Principles and Techniques of Data Science}
+        }}
+ \end{itemize}
+  \resumeSubHeadingListEnd
+
+
 %-----------EXPERIENCE-----------
-\section{Experience}
+\section{\textbf{Experience}}
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Tech Consultant}{November 2021 -- Present}
-      {UC Berkeley Student Tech Services}{Berkeley, CA}
+      {Atlassian}{\textbf{Mountain View, CA}}
+      {Full Stack Software Engineer}{May 2022 -- August 2022}
       \resumeItemListStart
-        \resumeItem{Collaborate with Helpdesk Supervisors to provide technical support for all UC Berkeley students}
-        \resumeItem{Troubleshoot and resolve various hardware and software issues (e.g. laptops, peripherals, viruses, etc.) around campus}
-        \resumeItem{Provide in-person and on-call customer service to respond to incidents on ServiceNow}
+        \resumeItem{Assisted the Confluence Collaboration team with the development of a notifications microservice}
+        \resumeItem{Facilitated the querying of user email settings by designing a reactive REST API with Spring and Reactor}
+        \resumeItem{Optimized DynamoDB schema for user preferences by analyzing access patterns in the Confluence Monolith}
+        \resumeItem{Improved user interface in Confluence by modernizing the email settings page with React and TypeScript}
+        \resumeItem{Engaged in Agile Software Development by contributing to daily stand-ups and Scrum sprints}
       \resumeItemListEnd
       
 % -----------Multiple Positions Heading-----------
@@ -169,51 +173,48 @@
 %-------------------------------------------
 
     \resumeSubheading
-      {Academic Intern}{June 2021 -- August 2021}
-      {UC Berkeley EECS Department}{Berkeley, CA}
+      {Student Technology Services}{\textbf{Berkeley, CA}}
+      {Student Technology Consultant}{January 2022 -- Present}
       \resumeItemListStart
-        \resumeItem{Supported lab section of over 50 students for UC Berkeley’s Data Structures and Algorithms course}
-        \resumeItem{Completed over 30 student tickets throughout the session, providing conceptual and bug-fixing support for lab assignments}
-        \resumeItem{Regularly consulted with student instructors to provide recommendations for improving the remote learning experience for students}
+        \resumeItem{Provide Tier-1 technical support to all UC Berkeley students through in-person and on-call phone service}
+        \resumeItem{Resolved over 60 ServiceNow tickets by troubleshooting network, hardware, and software issues}
+        \resumeItem{Assist residents of University Village in Albany with network incidents by providing in-room appointments}
+        \resumeItem{Promote technology resources and services provided by the University to UC Berkeley students}
     \resumeItemListEnd
 
   \resumeSubHeadingListEnd
 
 
 %-----------PROJECTS-----------
-\section{Projects}
+\section{\textbf{Projects}}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{Personal Website}}{\href{https://github.com/huytt621/personal-website}{\underline{git.io/Jynzo}}}
+          {\textbf{Upsilon Pi Epsilon Blog} $|$ \emph{Next.js, React, Express.js, Tailwind CSS, GraphQL, MongoDB}}{\href{https://github.com/upenu}{\underline{t.ly/N-nC}}}
           \resumeItemListStart
-                \resumeItem{Built a modern progressive website with React and Tailwind CSS that highlights my portfolio}
-                \resumeItem{Improved User Experience on mobile devices by following Mobile-First Responsive Design principles}
+            \resumeItem{Managed creation of a full stack web application for UC Berkeley UPE members to read and write blog posts}
+            \resumeItem{Streamlined software development by building a CI/CD pipeline with GitHub Actions and Docker}
+            \resumeItem{Developed a GraphQL API with Express.js that saves blogs and user-generated content to MongoDB}
+            \resumeItem{Promoted user retention by designing an attractive and intuitive user interface with React}
+            \resumeItem{Oversaw frontend and backend software teams during development of a reaction service}
           \resumeItemListEnd
       \resumeProjectHeading
-          {\textbf{Pok\'emon Recommender}}{\href{https://github.com/huytt621/pokemon-recommender}{\underline{git.io/JS9yt}}}
+          {\textbf{Pok\'emon Recommender} $|$ \emph{Python, NumPy, Pandas, Sci-kit Learn, Seaborn}}{\href{https://github.com/huytt621/pokemon-recommender}{\underline{t.ly/L\_xn}}}
           \resumeItemListStart
-            \resumeItem{Created a recommender system in Python that outputs similar Pok\'emon based on a user's input}
-            \resumeItem{Transformed and cleaned data from Pok\'eAPI using the pandas and NumPy libraries}
-            \resumeItem{Improved recommendations by applying various Machine Learning techniques (e.g. K-Nearest Neighbors, Cosine Similarity, SVD) with the sciKit-learn library}
-            \resumeItem{Organized and analyzed results in a Jupyter Notebook}
+            \resumeItem{Developed a system that recommends similar Pok\'emon based on input of a user's favorite Pok\'emon}
+            \resumeItem{Facilitated exploratory data analysis by cleaning and transforming data from Pok\'eAPI using Pandas}
+            \resumeItem{Improved recommendations by applying K-Nearest Neighbors and Cosine Similarity with Sci-kit Learn}
+            \resumeItem{Organized discoveries by recording and analyzing results in a Jupyter Notebook}
           \resumeItemListEnd
       \resumeProjectHeading
-          {\textbf{CalPlanner}}{\href{https://github.com/huytt621/calplanner}{\underline{git.io/JWPcc}}}
+          {\textbf{Gitlet} $|$ \emph{Java}}{\href{https://gitfront.io/r/huytt621/6546c41e067e9f94621b90d764d7d16da3abb527/gitlet/}{\underline{t.ly/uyu\_}}}
           \resumeItemListStart
-            \resumeItem{Developed a full-stack web application that allows students to create and edit four-year academic plans}
-            \resumeItem{Created a REST API with Express.js that stores user information and plans into a MongoDB Database}
-            \resumeItem{Designed a User Interface with React and Tailwind CSS that automatically saves user changes to the database}
-            \resumeItem{Integrated OAuth API to allow users to securely register and login with their Google accounts}
-          \resumeItemListEnd
-      \resumeProjectHeading
-          {\textbf{Gitlet}}{\href{https://gitfront.io/r/huytt621/6546c41e067e9f94621b90d764d7d16da3abb527/gitlet/}{\underline{bit.ly/3q9UHl1}}}
-          \resumeItemListStart
-            \resumeItem{Created a version control system with features from Git (e.g. commit, checkout, merge) using Java}
-            \resumeItem{Improved navigation through commit history by using a directed acyclic graph and graph traversal algorithms}
-            \resumeItem{Optimized the detection of file changes by integrating the SHA-1 cryptographic hash function}
-            \resumeItem{Verified correctness of the program by writing integration tests during development (Test Driven Development)}
+            \resumeItem{Created a lightweight version control system with common Git features (e.g. commit, checkout, merge)}
+            \resumeItem{Improved traversal through commit objects by structuring the commit history as a directed acyclic graph}
+            \resumeItem{Optimized detection of repository changes by integrating the SHA-1 hash function to encode file content}
+            \resumeItem{Validated correctness of the project by performing Test-Driven Development with unit tests}
           \resumeItemListEnd
     \resumeSubHeadingListEnd
+
 
 
 %-------------------------------------------

@@ -125,9 +125,9 @@
 \section{\textbf{Technical Skills}}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Java, C, Python, JavaScript, TypeScript, HTML/CSS, SQL, GraphQL} \\
-     \textbf{Frameworks/Libraries}{: React, Node.js, Express.js, Tailwind CSS, Spring, Project Reactor, FastAPI} \\
-     \textbf{Developer Tools}{: Git, GitHub, BitBucket, Jira, Confluence, Docker, Amazon Web Services, DynamoDB}
+     \textbf{Languages}{: Java, C, Rust, Go, Python, JavaScript, TypeScript, HTML/CSS, SQL, GraphQL} \\
+     \textbf{Frameworks/Libraries}{: React, Node.js, Express.js, Next.js, Spring Framework, Project Reactor, FastAPI} \\
+     \textbf{Developer Tools}{: Git, GitHub, BitBucket, Jira, Confluence, Docker, Amazon Web Services} \\
     }}
  \end{itemize}
 
@@ -141,24 +141,25 @@
 
     \begin{itemize}[leftmargin=0in, label={}]
         \small{\item{
-        \textbf{Relevant Courses}{: Data Structures, Computer Architecture, Discrete Math, Efficient Algorithms, Database Systems, Software Engineering, Principles and Techniques of Data Science, Probability for Data Science}
+        \textbf{Relevant Courses}{: Data Structures, Computer Architecture, Discrete Math, Efficient Algorithms, Database Systems, Software Engineering, Computer Security, Operating Systems, Principles and Techniques of Data Science, Probability for Data Science} \\
         }}
- \end{itemize}
+    \end{itemize}
   \resumeSubHeadingListEnd
-
 
 %-----------EXPERIENCE-----------
 \section{\textbf{Experience}}
   \resumeSubHeadingListStart
-
     \resumeSubheading
-      {Reader}{\textbf{Berkeley, CA}}
+      {Incoming Software Engineer}{\textbf{San Francisco, CA}}
+      {Atlassian}{Starting May 2023}
+    \resumeSubheading
+      {Academic Student Employee}{\textbf{Berkeley, CA}}
       {UC Berkeley EECS Department}{August 2022 -- Present}
       \resumeItemListStart
-        \resumeItem{Provide academic support for over 600 students in UC Berkeley's upper division Efficient Algorithms course}
-        \resumeItem{Collaborate with teaching assistants to provide students with accurate grades for assignments and exams}
-        \resumeItem{Guide students through classic algorithms and techniques by answering over 50 tickets during Office Hours}
-        \resumeItem{Enhance clarity of coding assignments by debugging Jupyter Notebooks on algorithm implementations}
+        \resumeItem{Provide academic support for UC Berkeley's upper division Efficient Algorithms course of over 600 students}
+        \resumeItem{Collaborate with student instructors to provide students with accurate grades for assignments and exams}
+        \resumeItem{Guide over 30 students per week through algorithm problems and CS theory topics during Office Hours}
+        \resumeItem{Enhance clarity of algorithm implementation assignments by testing and debugging Jupyter Notebooks}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -167,10 +168,10 @@
       \resumeItemListStart
         \resumeItem{Leveraged reactive architecture to create a responsive and scalable notifications microservice for Confluence}
         \resumeItem{Decoupled email settings from Monolith by designing a new REST API with Spring and Project Reactor}
-        \resumeItem{Reduced latency of queries by 20\% by optimizing the DynamoDB schema for common access patterns}
+        \resumeItem{Reduced latency of queries by 20\% by optimizing the DynamoDB schema for critical access patterns}
         \resumeItem{Modernized the email settings page by creating React components that follow the Atlassian Design System}
         \resumeItem{Integrated the notifications service with the frontend page by developing a GraphQL API with Apollo Client}
-        \resumeItem{Maintained 100\% test coverage by consistently writing unit and integration tests for each new feature}
+        \resumeItem{Maintained 100\% test coverage by consistently writing unit and integration tests for new features}
       \resumeItemListEnd
       
 % -----------Multiple Positions Heading-----------
@@ -190,48 +191,33 @@
 \section{\textbf{Projects}}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{Upsilon Pi Epsilon Internal API} $|$ \emph{Python, FastAPI, MySQL}}{\href{https://github.com/upenu}{\underline{Private Repository}}}
+          {\textbf{PintOS}}{\href{https://gitfront.io/r/huytt621/6546c41e067e9f94621b90d764d7d16da3abb527/gitlet/}{}}
           \resumeItemListStart
-            \resumeItem{Pioneered creation of a new API that facilitates access of UPE member data for usage in internal projects}
-            \resumeItem{Increased throughput of data requests by creating asynchronous REST endpoints with FastAPI}
-            \resumeItem{Migrated spreadsheet data to a MariaDB database to allow for OLAP to analyze member demographics}
-            \resumeItem{Streamlined development by creating a CI/CD pipeline using GitHub Actions}
+            \resumeItem{Collaborated with a team of four to enhance an x86 Operating System legacy codebase written in C}
+            \resumeItem{Enabled execution of user programs by creating process control and file system calls (e.g. fork, exec, open)}
+            \resumeItem{Improved program performance by developing multithreading with user-level threads and synchronization}
+            \resumeItem{Refined filesystem by implementing file growth and subdirectories, inspired by the Berkeley Fast Filesystem}
+            \resumeItem{Doubled kernel performance by designing a buffer cache with the Clock algorithm replacement policy}
           \resumeItemListEnd
       \resumeProjectHeading
-          {\textbf{Upsilon Pi Epsilon Website} $|$ \emph{React, Tailwind CSS, Gatsby.js}}{\href{https://github.com/upenu}{\underline{Private Repository}}}
+          {\textbf{Upsilon Pi Epsilon Website}}{\href{https://github.com/upenu}{}}
           \resumeItemListStart
-            \resumeItem{Overhauled the official website for UC Berkeley's CS Honor Society (UPE) with Gatsby.js and Tailwind CSS}
+            \resumeItem{Overhauled the official website for UC Berkeley's CS Honor Society with Next.js and Tailwind CSS}
             \resumeItem{Improved UX for scheduling professional services by redesigning the scheduler to be more clear and intuitive}
-            \resumeItem{Revamped ``Big-Little'' Family Tree by dynamically querying from internal API and improving the UI with D3.js}
-            \resumeItem{Enchanced mobile-user experience by redesigning pages to reflect responsive web design principles}
+            \resumeItem{Enhanced user accessibility by redesigning pages to adhere responsive web design principles}
+            \resumeItem{Pioneered the creation of a REST API with FastAPI to dynamically retrieve and display member data}
           \resumeItemListEnd
       \resumeProjectHeading
-          {\textbf{Gitlet} $|$ \emph{Java}}{\href{https://gitfront.io/r/huytt621/6546c41e067e9f94621b90d764d7d16da3abb527/gitlet/}{\underline{t.ly/uyu\_}}}
+          {\textbf{Gitlet}}{\href{https://gitfront.io/r/huytt621/6546c41e067e9f94621b90d764d7d16da3abb527/gitlet/}{}}
           \resumeItemListStart
-            \resumeItem{Created a lightweight version control system with standard Git features (e.g. commit, checkout, merge)}
+            \resumeItem{Developed a lightweight version control system in Java with Git features (e.g. commit, checkout, merge)}
             \resumeItem{Improved traversal through commit objects by structuring the commit history as a directed acyclic graph}
             \resumeItem{Optimized detection of repository changes by integrating the SHA-1 hash function to encode file contents}
-            \resumeItem{Validated correctness of the project by performing Test-Driven Development with unit tests}
           \resumeItemListEnd
     \resumeSubHeadingListEnd
 
 
 %-------------------------------------------
-
-%-----------EXPERIENCE-----------
-\section{\textbf{Activities}}
-  \resumeSubHeadingListStart
-
-    \resumeSubheading
-      {Officer of Software Development}{\textbf{Berkeley, CA}}
-      {Upsilon Pi Epsilon, Nu Chapter}{August 2022 -- Present}
-      \resumeItemListStart
-        \resumeItem{Lead committee of over 15 members through the development of internal software projects}
-        \resumeItem{Consult with executive team biweekly to decide on changes for current projects and conceptualize new ideas}
-        \resumeItem{Introduce beginner developers to common software engineering practices (e.g. Agile, TDD, Code Reviews)}
-      \resumeItemListEnd
-
-  \resumeSubHeadingListEnd
 
 
 \end{document}

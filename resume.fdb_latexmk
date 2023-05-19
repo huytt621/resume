@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1670731252 "/Users/huytran/Projects/resume/resume.tex" "resume.pdf" "resume" 1670731252
-  "/Users/huytran/Projects/resume/resume.tex" 1670731251 9676 9bb05c76c9d201eca54f48ddb8ed3cfe ""
+["pdflatex"] 1683959888 "/Users/huytran/Developer/resume/resume.tex" "resume.pdf" "resume" 1683959888
+  "/Users/huytran/Developer/resume/resume.tex" 1683959888 9063 c2a67ef929e9205c9617f6418d3f1d80 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/opensans/a_iz27ck.enc" 1561498186 2880 c07f4a1ce14a88d4ebe18f1c7b4592c1 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/opensans/a_n3lhbv.enc" 1561498186 2876 59df564f2929ccd7d2b24aa7d14cad04 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -94,11 +94,11 @@
   "/usr/local/texlive/2022/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1605910342 4902 efb3d66683a2da2a232f71e3a571a899 ""
   "/usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf" 1646502317 40171 cdab547de63d26590bebb3baff566530 ""
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
-  "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1659334376 2826444 d8fd6a17c61da8903d6213dd426c0043 ""
+  "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1674617243 2826446 d555335648f412083c3ec9a468bc2a96 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "resume.aux" 1670731252 1359 8e0d83d86f220a50d1ec102db35e4798 "pdflatex"
-  "resume.out" 1670731252 483 d3a272decda787cfc4b78157c9390fb6 "pdflatex"
-  "resume.tex" 1670731251 9676 9bb05c76c9d201eca54f48ddb8ed3cfe ""
+  "resume.aux" 1683959888 1241 db8af94c0adf4faf0019e4c3d00d5482 "pdflatex"
+  "resume.out" 1683959888 390 d74492ce4de5d896fc3ec275ecae57cb "pdflatex"
+  "resume.tex" 1683959888 9063 c2a67ef929e9205c9617f6418d3f1d80 ""
   (generated)
   "resume.aux"
   "resume.log"

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.31)  10 DEC 2022 20:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.24)  12 MAY 2023 23:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/huytran/Projects/resume/resume.tex
-(/Users/huytran/Projects/resume/resume.tex
+**/Users/huytran/Developer/resume/resume.tex
+(/Users/huytran/Developer/resume/resume.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24> (/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -352,7 +352,16 @@ LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/it' will be
 LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/it' will be
 (Font)              scaled to size 10.0pt on input line 140.
 LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 158.
+(Font)              scaled to size 6.0pt on input line 159.
+
+Package hyperref Warning: Suppressing empty link on input line 194.
+
+
+Package hyperref Warning: Suppressing empty link on input line 203.
+
+
+Package hyperref Warning: Suppressing empty link on input line 211.
+
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 4.08003pt, for example:
@@ -365,21 +374,21 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: D3A272DECDA787CFC4B78157C9390FB6;483.
+(rerunfilecheck)             Checksum: D74492CE4DE5D896FC3EC275ECAE57CB;390.
  ) 
 Here is how much of TeX's memory you used:
- 10762 strings out of 478268
- 173820 string characters out of 5846347
- 508275 words of memory out of 5000000
- 28819 multiletter control sequences out of 15000+600000
- 477826 words of font info for 60 fonts, out of 8000000 for 9000
+ 10758 strings out of 478268
+ 173755 string characters out of 5846347
+ 504275 words of memory out of 5000000
+ 28817 multiletter control sequences out of 15000+600000
+ 477536 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,11n,63p,297b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 60i,11n,63p,339b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/opensans/a_iz27ck.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/opensans/a_n3lhbv.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Bold.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Italic.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Regular.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-Output written on resume.pdf (1 page, 72341 bytes).
+Output written on resume.pdf (1 page, 67421 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 60 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 500000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

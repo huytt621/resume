@@ -1,8 +1,8 @@
-PWD /Users/huytran/Projects/resume
+PWD /Users/huytran/Developer/resume
 INPUT /usr/local/texlive/2022/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/huytran/Projects/resume/resume.tex
+INPUT /Users/huytran/Developer/resume/resume.tex
 OUTPUT resume.log
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
@@ -620,8 +620,6 @@ INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/ascender/opensans/OpenSans-Bol
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Bold-OT1-TLF--base.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/ascender/opensans/OpenSans-Italic-OT1-TLF.vf
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Italic-OT1-TLF--base.tfm
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/vf/ascender/opensans/OpenSans-Regular-OT1-TLF.vf
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/ascender/opensans/OpenSans-Regular-OT1-TLF--base.tfm
 INPUT resume.aux
 INPUT ./resume.out
 INPUT ./resume.out

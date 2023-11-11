@@ -126,7 +126,7 @@
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
      \textbf{Languages}{: Java, C, Rust, Go, Python, JavaScript, TypeScript, HTML/CSS, SQL, GraphQL} \\
-     \textbf{Frameworks/Libraries}{: React, Node.js, Express.js, Next.js, Spring Framework, Project Reactor, FastAPI} \\
+     \textbf{Frameworks/Libraries}{: React, Node.js, Express.js, Next.js, Spring Boot, Project Reactor, FastAPI} \\
      \textbf{Developer Tools}{: Git, GitHub, BitBucket, Jira, Confluence, Docker, Amazon Web Services} \\
     }}
  \end{itemize}
@@ -137,11 +137,14 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {University of California, Berkeley}{\textbf{Berkeley, CA}}
-      {Bachelor of Arts, Double Major in Computer Science and Data Science (GPA: 4.00)}{Expected May 2024}
+      {Bachelor of Arts in Computer Science, Minor in Data Science (GPA: 4.00)}{Expected May 2024}
 
     \begin{itemize}[leftmargin=0in, label={}]
         \small{\item{
         \textbf{Relevant Courses}{: Data Structures, Computer Architecture, Discrete Math, Efficient Algorithms, Database Systems, Software Engineering, Computer Security, Operating Systems, Principles and Techniques of Data Science, Probability for Data Science} \\
+        }}
+        \small{\item{
+        \textbf{Awards and Honors}{: Upsilon Pi Epsilon (CS Honor Society), Jim and Donna Gray Endowment Award (High Academic Achievement)}
         }}
     \end{itemize}
   \resumeSubHeadingListEnd
@@ -150,16 +153,25 @@
 \section{\textbf{Experience}}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Incoming Software Engineer}{\textbf{San Francisco, CA}}
-      {Atlassian}{Starting May 2023}
-    \resumeSubheading
-      {Academic Student Employee}{\textbf{Berkeley, CA}}
-      {UC Berkeley EECS Department}{August 2022 -- Present}
+      {Teaching Assistant}{\textbf{Berkeley, CA}}
+      {UC Berkeley EECS Department}{August 2023 -- Current}
       \resumeItemListStart
-        \resumeItem{Provide academic support for UC Berkeley's upper division Efficient Algorithms course of over 600 students}
-        \resumeItem{Collaborate with student instructors to provide students with accurate grades for assignments and exams}
-        \resumeItem{Guide over 30 students per week through algorithm problems and CS theory topics during Office Hours}
-        \resumeItem{Enhance clarity of algorithm implementation assignments by testing and debugging Jupyter Notebooks}
+        \resumeItem{Provide academic support for UC Berkeley's upper division Computer Security course of over 600 students}
+        \resumeItem{Instruct over 30 students weekly about applications of security concepts and attacks during section}
+        \resumeItem{Produce 4+ high quality video walkthroughs regarding C vulnerabilities, cryptography, and network security}
+        \resumeItem{Resolved 120+ tickets by assisting students with conceptual and debugging difficulties in Office Hours}
+        \resumeItem{Collaborate with over 20 members of course staff to make administrative decisions about class direction}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Backend Software Engineer}{\textbf{San Francisco, CA}}
+      {Atlassian}{May 2023 -- August 2023}
+      \resumeItemListStart
+        \resumeItem{Improved delivery time of Confluence WebHooks 12\% by optimizing payload generation and processing}
+        \resumeItem{Eliminated 140 million daily requests to Amazon RDS by removing DB dependency for sending WebHooks}
+        \resumeItem{Reduced volume of WebHook messages sent to SQS by 29\%, removing redundancy by batching callbacks}
+        \resumeItem{Increased scope of analytics by proposing and implementing 5+ new metrics for the SignalFX Dashboard}
+        \resumeItem{Raised test coverage in the Confluence Monolith by writing acceptance tests for WebHook events}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -168,10 +180,9 @@
       \resumeItemListStart
         \resumeItem{Leveraged reactive architecture to create a responsive and scalable notifications microservice for Confluence}
         \resumeItem{Decoupled email settings from Monolith by designing a new REST API with Spring and Project Reactor}
-        \resumeItem{Reduced latency of queries by 20\% by optimizing the DynamoDB schema for critical access patterns}
+        \resumeItem{Reduced latency of queries by 19\% by optimizing the DynamoDB schema for critical access patterns}
         \resumeItem{Modernized the email settings page by creating React components that follow the Atlassian Design System}
         \resumeItem{Integrated the notifications service with the frontend page by developing a GraphQL API with Apollo Client}
-        \resumeItem{Maintained 100\% test coverage by consistently writing unit and integration tests for new features}
       \resumeItemListEnd
       
 % -----------Multiple Positions Heading-----------
@@ -191,28 +202,21 @@
 \section{\textbf{Projects}}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-          {\textbf{PintOS}}{\href{https://gitfront.io/r/huytt621/6546c41e067e9f94621b90d764d7d16da3abb527/gitlet/}{}}
+          {\textbf{PintOS}}{}
           \resumeItemListStart
-            \resumeItem{Collaborated with a team of four to enhance an x86 Operating System legacy codebase written in C}
-            \resumeItem{Enabled execution of user programs by creating process control and file system calls (e.g. fork, exec, open)}
-            \resumeItem{Improved program performance by developing multithreading with user-level threads and synchronization}
+            \resumeItem{Collaborated with a team of four to enhance a legacy x86 Operating System codebase written in C}
+            \resumeItem{Implemented execution of user programs by creating process control and file system calls (e.g. fork, open)}
+            \resumeItem{Improved performance by developing user-level threads and synchronization to enable multithreading}
             \resumeItem{Refined filesystem by implementing file growth and subdirectories, inspired by the Berkeley Fast Filesystem}
-            \resumeItem{Doubled kernel performance by designing a buffer cache with the Clock algorithm replacement policy}
+            \resumeItem{Halved runtime of performance tests by designing a kernel buffer cache with the Clock replacement policy}
           \resumeItemListEnd
       \resumeProjectHeading
-          {\textbf{Upsilon Pi Epsilon Website}}{\href{https://github.com/upenu}{}}
+          {\textbf{End-to-End Encrypted Filesystem}}{}
           \resumeItemListStart
-            \resumeItem{Overhauled the official website for UC Berkeley's CS Honor Society with Next.js and Tailwind CSS}
-            \resumeItem{Improved UX for scheduling professional services by redesigning the scheduler to be more clear and intuitive}
-            \resumeItem{Enhanced user accessibility by redesigning pages to adhere responsive web design principles}
-            \resumeItem{Pioneered the creation of a REST API with FastAPI to dynamically retrieve and display member data}
-          \resumeItemListEnd
-      \resumeProjectHeading
-          {\textbf{Gitlet}}{\href{https://gitfront.io/r/huytt621/6546c41e067e9f94621b90d764d7d16da3abb527/gitlet/}{}}
-          \resumeItemListStart
-            \resumeItem{Developed a lightweight version control system in Java with Git features (e.g. commit, checkout, merge)}
-            \resumeItem{Improved traversal through commit objects by structuring the commit history as a directed acyclic graph}
-            \resumeItem{Optimized detection of repository changes by integrating the SHA-1 hash function to encode file contents}
+            \resumeItem{Developed a secure filesystem that provides confidentiality and integrity of file contents written in Go}
+            \resumeItem{Reduced bandwidth and asymptotic runtime of file appends by implementing files as a singly-linked list}
+            \resumeItem{Facilitated secure file sharing by designing an algorithm inspired by callbacks and authenticated encryption}
+            \resumeItem{Minimized security vulnerabilities by generating unique secret keys for different purposes with PBKDF2}
           \resumeItemListEnd
     \resumeSubHeadingListEnd
 

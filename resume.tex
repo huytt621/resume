@@ -125,43 +125,36 @@
 \section{\textbf{Technical Skills}}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Java, C, Rust, Go, Python, JavaScript, TypeScript, HTML/CSS, SQL, GraphQL} \\
-     \textbf{Frameworks/Libraries}{: React, Node.js, Express.js, Next.js, Spring Boot, Project Reactor, FastAPI} \\
+     \textbf{Languages}{: Java, C/C++, Go, Python, JavaScript, TypeScript, HTML/CSS, SQL, GraphQL} \\
+     \textbf{Frameworks/Libraries}{: React, Node.js, Express.js, Next.js, Spring Framework, Project Reactor} \\
      \textbf{Developer Tools}{: Git, GitHub, BitBucket, Jira, Confluence, Docker, Amazon Web Services} \\
     }}
  \end{itemize}
-
-
-%-----------EDUCATION-----------
-\section{\textbf{Education}}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {University of California, Berkeley}{\textbf{Berkeley, CA}}
-      {Bachelor of Arts in Computer Science, Minor in Data Science (GPA: 4.00)}{Expected May 2024}
-
-    \begin{itemize}[leftmargin=0in, label={}]
-        \small{\item{
-        \textbf{Relevant Courses}{: Data Structures, Computer Architecture, Discrete Math, Efficient Algorithms, Database Systems, Software Engineering, Computer Security, Operating Systems, Principles and Techniques of Data Science, Probability for Data Science} \\
-        }}
-        \small{\item{
-        \textbf{Awards and Honors}{: Upsilon Pi Epsilon (CS Honor Society), Jim and Donna Gray Endowment Award (High Academic Achievement)}
-        }}
-    \end{itemize}
-  \resumeSubHeadingListEnd
 
 %-----------EXPERIENCE-----------
 \section{\textbf{Experience}}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Teaching Assistant}{\textbf{Berkeley, CA}}
-      {UC Berkeley EECS Department}{August 2023 -- Current}
+      {Backend Software Engineer}{\textbf{San Mateo, CA}}
+      {Roblox}{July 2024 -- Current}
       \resumeItemListStart
-        \resumeItem{Provide academic support for UC Berkeley's upper division Computer Security course of over 600 students}
-        \resumeItem{Instruct over 30 students weekly about applications of security concepts and attacks during section}
-        \resumeItem{Produce 4+ high quality video walkthroughs regarding C vulnerabilities, cryptography, and network security}
-        \resumeItem{Resolved 120+ tickets by assisting students with conceptual and debugging difficulties in Office Hours}
-        \resumeItem{Collaborate with over 20 members of course staff to make administrative decisions about class direction}
+        \resumeItem{Improved delivery time of Confluence WebHooks 12\% by optimizing payload generation and processing}
+        \resumeItem{Eliminated 140 million daily requests to Amazon RDS by removing DB dependency for sending WebHooks}
+        \resumeItem{Reduced volume of WebHook messages sent to SQS by 29\%, removing redundancy by batching callbacks}
+        \resumeItem{Increased scope of analytics by proposing and implementing 5+ new metrics for the SignalFX Dashboard}
+        \resumeItem{Raised test coverage in the Confluence Monolith by writing acceptance tests for multiple WebHook events}
       \resumeItemListEnd
+
+    % \resumeSubheading
+    %   {Teaching Assistant}{\textbf{Berkeley, CA}}
+    %   {UC Berkeley EECS Department}{August 2023 -- Current}
+    %   \resumeItemListStart
+    %     \resumeItem{Provide academic support for UC Berkeley's upper division Computer Security course of over 600 students}
+    %     \resumeItem{Teach over 30 students about computer security concepts and common attacks during weekly section}
+    %     \resumeItem{Produce video walkthroughs regarding memory safety in C, cryptography, networking, and web security}
+    %     \resumeItem{Resolved over 120 tickets by assisting students with conceptual and debugging issues during Office Hours}
+    %     \resumeItem{Collaborate with over 20 members of course staff to make administrative decisions about class direction}
+    %   \resumeItemListEnd
 
     \resumeSubheading
       {Backend Software Engineer}{\textbf{San Francisco, CA}}
@@ -171,7 +164,7 @@
         \resumeItem{Eliminated 140 million daily requests to Amazon RDS by removing DB dependency for sending WebHooks}
         \resumeItem{Reduced volume of WebHook messages sent to SQS by 29\%, removing redundancy by batching callbacks}
         \resumeItem{Increased scope of analytics by proposing and implementing 5+ new metrics for the SignalFX Dashboard}
-        \resumeItem{Raised test coverage in the Confluence Monolith by writing acceptance tests for WebHook events}
+        \resumeItem{Raised test coverage in the Confluence Monolith by writing acceptance tests for multiple WebHook events}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -182,7 +175,7 @@
         \resumeItem{Decoupled email settings from Monolith by designing a new REST API with Spring and Project Reactor}
         \resumeItem{Reduced latency of queries by 19\% by optimizing the DynamoDB schema for critical access patterns}
         \resumeItem{Modernized the email settings page by creating React components that follow the Atlassian Design System}
-        \resumeItem{Integrated the notifications service with the frontend page by developing a GraphQL API with Apollo Client}
+        \resumeItem{Integrated the notifications service with the settings page by developing a GraphQL API with Apollo Client}
       \resumeItemListEnd
       
 % -----------Multiple Positions Heading-----------
@@ -211,17 +204,32 @@
             \resumeItem{Halved runtime of performance tests by designing a kernel buffer cache with the Clock replacement policy}
           \resumeItemListEnd
       \resumeProjectHeading
-          {\textbf{End-to-End Encrypted Filesystem}}{}
+          {\textbf{Secure File Sharing System}}{}
           \resumeItemListStart
-            \resumeItem{Developed a secure filesystem that provides confidentiality and integrity of file contents written in Go}
-            \resumeItem{Reduced bandwidth and asymptotic runtime of file appends by implementing files as a singly-linked list}
-            \resumeItem{Facilitated secure file sharing by designing an algorithm inspired by callbacks and authenticated encryption}
-            \resumeItem{Minimized security vulnerabilities by generating unique secret keys for different purposes with PBKDF2}
+            \resumeItem{Developed an end-to-end secure filesystem that provides confidentiality and integrity of files written in Go}
+            \resumeItem{Reduced bandwidth and asymptotic runtime of file appends using a singly-linked list file format}
+            \resumeItem{Facilitated secure file sharing by designing an algorithm inspired by callbacks and hybrid encryption}
+            \resumeItem{Designed an efficient revocation of file access algorithm inspired by shared memory and flattened trees}
           \resumeItemListEnd
     \resumeSubHeadingListEnd
 
 
 %-------------------------------------------
+
+
+%-----------EDUCATION-----------
+\section{\textbf{Education}}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of California, Berkeley}{}
+      {Bachelor of Arts in Computer Science, Minor in Data Science}{}
+
+    \begin{itemize}[leftmargin=0in, label={}]
+        \small{\item{
+        \textbf{Relevant Courses}{: Data Structures, Computer Architecture, Efficient Algorithms, Database Systems, Computer Security, Operating Systems, Programming Languages and Compilers, Computer Networking, Machine Learning} \\
+        }}
+    \end{itemize}
+  \resumeSubHeadingListEnd
 
 
 \end{document}

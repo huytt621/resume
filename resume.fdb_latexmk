@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1696825497 "/Users/huytran/Developer/resume/resume.tex" "resume.pdf" "resume" 1696825498 0
-  "/Users/huytran/Developer/resume/resume.tex" 1696825497 9194 ab3affdc00992410226b11c9571d1029 ""
+["pdflatex"] 1715192382 "/Users/huytran/Developer/resume/resume.tex" "resume.pdf" "resume" 1715192383 0
+  "/Users/huytran/Developer/resume/resume.tex" 1715192382 9714 70c1af30c69d4247038d2b813de34e72 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/opensans/a_iz27ck.enc" 1561498186 2880 c07f4a1ce14a88d4ebe18f1c7b4592c1 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/opensans/a_n3lhbv.enc" 1561498186 2876 59df564f2929ccd7d2b24aa7d14cad04 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -99,9 +99,9 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1685303700 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1685303667 7883455 f7af7440566850dc3c3b2a40845583d3 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "resume.aux" 1696825498 1109 c173af861f8e15f2958a55a56c37773a "pdflatex"
-  "resume.out" 1696825498 390 d74492ce4de5d896fc3ec275ecae57cb "pdflatex"
-  "resume.tex" 1696825497 9194 ab3affdc00992410226b11c9571d1029 ""
+  "resume.aux" 1715192383 1109 a277f8cdbbf393b4d1bcc24062d88d2d "pdflatex"
+  "resume.out" 1715192383 390 c20df0732a26e929d2e5c5462d70cbf8 "pdflatex"
+  "resume.tex" 1715192382 9714 70c1af30c69d4247038d2b813de34e72 ""
   (generated)
   "resume.aux"
   "resume.log"

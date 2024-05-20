@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.28)  8 OCT 2023 21:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.28)  8 MAY 2024 11:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -337,19 +337,19 @@ LaTeX Font Info:    Font shape `OT1/opensans-TLF/b/sc' will be
 LaTeX Font Info:    Font shape `OT1/opensans-TLF/b/n' will be
 (Font)              scaled to size 10.0pt on input line 128.
 LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/sc' will be
-(Font)              scaled to size 10.95pt on input line 136.
+(Font)              scaled to size 10.95pt on input line 135.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 140.
+(Font)              <10.95> on input line 139.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 140.
+(Font)              <8> on input line 139.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 140.
+(Font)              <6> on input line 139.
 LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/it' will be
-(Font)              scaled to size 10.95pt on input line 140.
+(Font)              scaled to size 10.95pt on input line 139.
 LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 140.
+(Font)              scaled to size 10.0pt on input line 139.
 LaTeX Font Info:    Font shape `OT1/opensans-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 159.
+(Font)              scaled to size 6.0pt on input line 141.
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 4.08003pt, for example:
@@ -362,18 +362,18 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: D74492CE4DE5D896FC3EC275ECAE57CB;390.
+(rerunfilecheck)             Checksum: C20DF0732A26E929D2E5C5462D70CBF8;390.
  ) 
 Here is how much of TeX's memory you used:
  10883 strings out of 476025
  177209 string characters out of 5790017
- 1882388 words of memory out of 5000000
+ 1881388 words of memory out of 5000000
  31175 multiletter control sequences out of 15000+600000
  520564 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,76p,339b,475s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,76p,305b,475s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Italic.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/ascender/opensans/OpenSans-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
-Output written on resume.pdf (1 page, 63779 bytes).
+Output written on resume.pdf (1 page, 61769 bytes).
 PDF statistics:
  60 PDF objects out of 1000 (max. 8388607)
  46 compressed objects within 1 object stream
